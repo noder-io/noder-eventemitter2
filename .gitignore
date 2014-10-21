@@ -1,0 +1,9 @@
+*.log
+
+node_modules/
+local/
+/tmp
+/public
+.Trash-1000/
+.DS_Store
+Thumbs.db

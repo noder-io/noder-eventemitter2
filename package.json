@@ -1,0 +1,37 @@
+{
+  "name": "noder-eventemitter2",
+  "version": "1.0.2",
+  "description": "Plugin for Noder.io that provides the module 'eventemitter2' in the API and/or $di container.",
+  "main": "src/index.js",
+  "keywords": [
+    "noder-plugin",
+    "event",
+    "eventemitter"
+  ],
+  "author": {
+    "name": "Nicolas Tallefourtane",
+    "url": "http://nicolab.net"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/noder-io/noder-eventemitter2/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noder-io/noder-eventemitter2.git"
+  },
+  "bugs": "https://github.com/noder-io/noder-eventemitter2/issues",
+  "dependencies": {
+    "eventemitter2": "^0.4.14"
+  },
+  "devDependencies": {
+    "noder.io": "^1.0.2",
+    "mocha": "^1.21.5",
+    "unit.js": ">= 1.0.2 <= 2.0.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  }
+}
